@@ -3,5 +3,7 @@
     <string name="todo2">TODO</string>
     <string name="todo3">TODO</string>
     <string name="welcome_to_the_stark_tower">Welcome To The Stark Tower</string>
-
+    <string name="lien">https://gist.githubusercontent.com/mariodev12/a923f2b651a005ca3ca7f851141efcbc/raw/12fbcb788eac52f08720d4bf5bf5b249ffa18420/</string>
+    <string name="répertoire">superheroes.json</string>
+    <string name="lien_complet">https://gist.githubusercontent.com/mariodev12/a923f2b651a005ca3ca7f851141efcbc/raw/12fbcb788eac52f08720d4bf5bf5b249ffa18420/superheroes.json</string>
 </resources>

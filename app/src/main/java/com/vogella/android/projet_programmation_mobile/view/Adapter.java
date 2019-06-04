@@ -63,7 +63,7 @@ import java.util.List;
             // - get element from your dataset at this position
             // - replace the contents of the view with that element
             final Avengers selectedAvengers = values.get(position);
-            holder.txtHeader.setText(selectedAvengers.getSuperhero());
+            holder.txtHeader.setText("Super-héro : " + selectedAvengers.getSuperhero());
             holder.txtHeader.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -71,8 +71,8 @@ import java.util.List;
                 }
             });
 
-            holder.txtFooter.setText("URL : " + selectedAvengers.getAlter_ego());
-            Log.d("URL",selectedAvengers.getAlter_ego());
+            holder.txtFooter.setText("Alter-ego : " + selectedAvengers.getAlter_ego() + " / Publisher : " + selectedAvengers.getPublisher());
+            Log.d("Alter-ego",selectedAvengers.getAlter_ego());
         }
 
         @Override

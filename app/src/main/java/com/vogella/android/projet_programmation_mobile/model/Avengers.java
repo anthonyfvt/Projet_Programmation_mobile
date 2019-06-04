@@ -11,7 +11,9 @@ public class Avengers {
     public String getSuperhero() {
         return superhero;
     }
-
+    public String getPublisher() {
+        return publisher;
+    }
     public String getAlter_ego() {
         return alter_ego;
     }
