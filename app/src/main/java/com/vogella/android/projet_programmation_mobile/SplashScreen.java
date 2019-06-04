@@ -1,11 +1,12 @@
 package com.vogella.android.projet_programmation_mobile;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-public class SplashScreen extends MainActivity{
+import com.vogella.android.projet_programmation_mobile.view.MainActivity;
+
+public class SplashScreen extends MainActivity {
 
     private static int SPLASH_TIME_OUT = 4000;
 

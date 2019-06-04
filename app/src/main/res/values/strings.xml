@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Projet_Programmation_Mobile</string>
-    <string name="todo">TODO</string>
     <string name="todo2">TODO</string>
     <string name="todo3">TODO</string>
+    <string name="welcome_to_the_stark_tower">Welcome To The Stark Tower</string>
+
 </resources>
