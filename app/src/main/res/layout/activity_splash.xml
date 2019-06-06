@@ -4,25 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/background_dark">
+    android:background="@android:color/background_dark" >
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="458dp"
-        android:layout_height="794dp"
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="368dp"
+        android:layout_height="61dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="200dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:contentDescription="@string/todo3"
-        android:scaleType="centerInside"
-        android:visibility="visible"
+        android:layout_marginRight="8dp"
+        android:gravity="bottom|center"
+        android:text="@string/m_a_r_v_e_l"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="36sp"
+        app:fontFamily="@font/avengeanceheroicavenger"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="368dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="200dp"
+        android:gravity="center|top"
+        android:lineSpacingExtra="36sp"
+        android:text="@string/dc_comics"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="36sp"
+        app:fontFamily="@font/gothamnightsbolditalic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.506"
-        app:srcCompat="@drawable/avengers_x_dc"
-        tools:srcCompat="@drawable/avengers_x_dc" />
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/avengers_logo"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="301dp" />
+
 </android.support.constraint.ConstraintLayout>

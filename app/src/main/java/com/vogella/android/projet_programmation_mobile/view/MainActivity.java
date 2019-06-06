@@ -1,8 +1,7 @@
 package com.vogella.android.projet_programmation_mobile.view;
 
-
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
@@ -13,7 +12,7 @@ import com.vogella.android.projet_programmation_mobile.model.Avengers;
 
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     private RecyclerView recyclerView;
     private RecyclerView.Adapter mAdapter;
@@ -42,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
         // define an adapter
         //Instanciation de mAdapter
-        mAdapter = new Adapter(avengersList);
+        mAdapter = new Adapter(avengersList,this);
         recyclerView.setAdapter(mAdapter);
     }
 

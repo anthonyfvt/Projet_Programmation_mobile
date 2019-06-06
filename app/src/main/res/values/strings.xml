@@ -6,4 +6,7 @@
     <string name="lien">https://gist.githubusercontent.com/mariodev12/a923f2b651a005ca3ca7f851141efcbc/raw/12fbcb788eac52f08720d4bf5bf5b249ffa18420/</string>
     <string name="répertoire">superheroes.json</string>
     <string name="lien_complet">https://gist.githubusercontent.com/mariodev12/a923f2b651a005ca3ca7f851141efcbc/raw/12fbcb788eac52f08720d4bf5bf5b249ffa18420/superheroes.json</string>
+    <string name="textview2">TextView</string>
+    <string name="dc_comics">DC COMICS</string>
+    <string name="m_a_r_v_e_l">M A R V E L</string>
 </resources>

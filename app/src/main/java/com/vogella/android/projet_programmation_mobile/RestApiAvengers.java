@@ -8,6 +8,6 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface RestApiAvengers {
-    @GET("superheroes.json")
+    @GET("superheros.json")
     Call<List<Avengers>> getAvengersData();
 }

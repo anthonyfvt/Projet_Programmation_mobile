@@ -17,7 +17,7 @@ public class Injection {
                     .create();
 
             Retrofit retrofit = new Retrofit.Builder()
-                    .baseUrl("https://gist.githubusercontent.com/mariodev12/a923f2b651a005ca3ca7f851141efcbc/raw/12fbcb788eac52f08720d4bf5bf5b249ffa18420/")
+                    .baseUrl("https://gist.githubusercontent.com/anthonyfvt/1f3ce4e0d77dbe17bb263f00ad72d313/raw/31d6616d8ecbae0149f57c7438216e2aa91c6d90/")
                     .addConverterFactory(GsonConverterFactory.create(gson))
                     .build();
 
